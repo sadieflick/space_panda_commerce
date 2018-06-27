@@ -11,6 +11,7 @@ import { CartComponent } from './home/cart/cart.component';
 import { PromotionComponent } from './home/products/promotion/promotion.component';
 import { InventoryComponent } from './home/products/inventory/inventory.component';
 import { ProductsComponent } from './home/products/products.component';
+import { NewComponent } from './home/new/new.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { ProductsComponent } from './home/products/products.component';
     CartComponent,
     PromotionComponent,
     InventoryComponent,
-    ProductsComponent
+    ProductsComponent,
+    NewComponent
   ],
   imports: [
     BrowserModule,

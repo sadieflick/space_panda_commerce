@@ -1,0 +1,14 @@
+<h2>add new product</h2>
+<hr>
+
+  <form (submit)="create(myform)" #myform="ngForm">
+    Name: <br>
+    <input type="text" ngModel name="name"> <br>
+    Qty<br>
+    <input type="number" ngModel name="qty"> <br>
+    Price: <br>
+    <input type="number" ngModel name="price"> <br><br>
+    <input type="submit" value="CREATE"> | <a [routerLink]="['/']">cancel</a>
+  </form>
+  
+  
