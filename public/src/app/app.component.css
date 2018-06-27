@@ -1,0 +1,63 @@
+body{
+  background-color: rgba(42, 90, 221, 0.454);
+}
+.headerDiv{
+  display: inline;
+
+}
+
+
+/* ========== nav bar =========== */
+
+.image{
+  background-image: url(spacepanda.jpg);
+  width: 29%;
+  height: 100%;
+  display: inline-block;
+}
+.image2{
+  background-image: url(space.jpg);
+  width: 71%;
+  height: 100%;
+  display: inline-block;
+}
+
+h1 {
+width: 400px;
+height: 100px;
+color: whitesmoke;
+display: inline-block;
+}
+
+.headerDiv ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.headerDiv li {
+  float: left;
+}
+
+.headerDiv li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.headerDiv li a:hover {
+  background-color: rgb(15, 40, 151);
+}
+
+.dojos {
+  width: 95%;
+  height: 800px;
+  margin: auto;
+  border: 1px solid black;
+  margin-top: 30px;
+}

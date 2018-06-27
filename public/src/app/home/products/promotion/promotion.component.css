@@ -1,0 +1,6 @@
+.wrapper{
+  width: 99%;
+  height: 37%;
+  background-image: url(background.jpg);
+  border: 1px dotted yellow;
+}

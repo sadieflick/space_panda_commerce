@@ -1,0 +1,20 @@
+.wrapper{
+  height: 100%;
+  width: 100%;
+  background-color: aqua;
+}
+
+.products{
+  width: 80%;
+  height: 100%;
+  align-self: left;
+  display: inline-block;
+}
+
+.cart{
+  width: 20%;
+  height: 100%;
+  align-self: right;
+  display: inline-block;
+  vertical-align: top;
+}

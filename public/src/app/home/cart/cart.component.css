@@ -1,0 +1,25 @@
+.wrapper {
+  width: 99%;
+  height: 100%;
+  background-color: rgb(220, 220, 215);
+  border: 1px dotted blue;
+  vertical-align: top;
+}
+
+.helperPanda {
+  background-image: url(helpful_panda.png);
+  height: 30%;
+  width: 100%;
+  margin-top: 182%;
+  align-content: center;
+}
+h4 {
+text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+ul {
+  border-bottom: 1px solid black;
+}
